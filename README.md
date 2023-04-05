@@ -4,7 +4,7 @@ This is the source code repository for the website <https://icas-edu.web.app/> w
 
 ## Note ⚠️
 
-**This project is no longer maintained.** You can still visit the site (https://icas-edu.web.app/) and enjoy the experience. However, please note that the project was built for temporary purposes and is not optimized. Future events will be conducted through ICAS' YouTube channel (https://www.youtube.com/@isipathana-astro) and Facebook page (https://www.facebook.com/isipathana.astro).
+**This project is no longer maintained.** You can still visit the site (https://icas-edu.web.app/) and enjoy the experience. However, please note that the project was built for temporary purposes and is not optimized. Future events will be conducted through ICAS' [YouTube channel](https://www.youtube.com/@isipathana-astro) and [Facebook page](https://www.facebook.com/isipathana.astro).
 
 ## About ICAS Webinar Series
 
@@ -16,16 +16,11 @@ The webinar was conducted via Zoom, and registered participants received an What
 
 Despite the challenges posed by the pandemic, the webinar series was a massive success, with participants from all over Sri Lanka joining in to learn about astronomy and related topics. The ICAS Webinar Series has become a beacon of hope and inspiration for astronomy enthusiasts in Sri Lanka, and the society hopes to continue conducting such events in the future.
 
-## Images From Facebook
 
-<!-- Facebook Post 1 -->
-<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fisipathana.astro%2Fposts%2Fpfbid02THhca5yLgn9435C4V49Nd2mhtnNAToFieJpf5tphCJSzpdumSPgoWTKwN3LcmVH9l&show_text=true&width=500" width="500" height="680" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+## Recordings
 
-<!-- Facebook Post 2 -->
-<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fisipathana.astro%2Fposts%2Fpfbid024KzYekjY9dNsQvyVRL4WAHfHjn2rkpnXjtzA7dDpiMNQzSADFMkyjbBDPYw9cvQVl&show_text=true&width=500" width="500" height="738" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-
-<!-- Facebook Post 3 -->
-<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fisipathana.astro%2Fphotos%2Fa.1043552512363879%2F4651817124870715%2F%3Ftype%3D3&show_text=true&width=500" width="500" height="793" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+1. [Are we Alone?](https://youtu.be/NDT4wLfrmLM)
+3. [The Flat Earth](https://www.youtube.com/live/IpW8V1SUTNw)
 
 ## Follow ICAS on Social Media
 
