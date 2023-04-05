@@ -1,0 +1,170 @@
+.hide {
+  display: none !important;
+}
+
+.show {
+  z-index: 1;
+}
+
+.mainC {
+  padding: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.container {
+  z-index: 3;
+  height: 80vh;
+  width: 55vw;
+}
+
+.error {
+  color: #fb3c3f !important;
+  font-family: "Fredoka One", cursive !important;
+  font-size: 1.2rem !important;
+  text-align: center !important;
+}
+
+.subcontainer {
+  align-self: center;
+  padding: 2rem;
+}
+.subcontainer button {
+  width: 100% !important;
+}
+.subcontainer p {
+  color: #dadee6;
+  font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
+    Liberation Mono, monospace;
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 950px) {
+  .mainC {
+    padding: 2rem;
+  }
+
+  .container {
+    height: 90vh;
+    width: 80vw;
+  }
+
+  .subcontainer {
+    padding: 0.9rem;
+  }
+
+  .subcontainer p {
+    font-size: 0.9rem;
+  }
+}
+
+/* ! Card */
+
+.card {
+  background: #060d1d;
+  color: white !important;
+  box-shadow: 0 8px 32px 0 #0c162d;
+  border: 1px solid #202637;
+  backdrop-filter: blur(17px);
+  -webkit-backdrop-filter: blur(17px);
+  padding: 0.3rem !important;
+  margin: 0%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 10px;
+}
+
+#left {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#right {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+}
+
+.card img {
+  width: 15rem;
+  border-radius: 10px;
+  margin: 0.3rem !important;
+}
+
+.cardContainer {
+  margin-left: 1rem !important;
+  margin-right: 1rem !important;
+}
+
+.cardContaine h1 {
+  font-family: "Righteous", cursive;
+  font-size: 2rem !important;
+}
+
+.cardContainer p {
+  font-family: "Comfortaa", cursive;
+  font-size: 1.2rem !important;
+}
+
+/* !Input */
+.Icontainer {
+  padding: 1rem;
+  font-size: 1.3rem;
+  display: flex;
+  align-content: flex-start;
+  justify-content: flex-start;
+  padding-bottom: 4rem;
+}
+
+.Icontainer input {
+  font-size: 1.3rem;
+  width: 100%;
+  background-color: #32a3b700;
+  color: #fff;
+  border: 0px;
+  outline: none;
+  margin-left: 1rem;
+}
+
+.Icontainer label {
+  color: #f8805b;
+  font-weight: bold;
+}
+
+/* !Mobile */
+
+@media screen and (max-width: 950px) {
+  #left {
+    flex-direction: column;
+  }
+
+  #right {
+    flex-direction: column;
+  }
+
+  .card img {
+    display: none;
+    margin: 0rem;
+  }
+
+  .cardContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .cardContainer p {
+    font-size: 0.7rem !important;
+  }
+}

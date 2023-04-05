@@ -1,0 +1,7 @@
+{
+  "hosting": {
+    "site": "icas-edu",
+    "public": "out",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+  }
+}

@@ -1,0 +1,171 @@
+.container {
+  margin: 3.5rem;
+  height: 100%;
+}
+
+.subcontainer {
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+}
+
+.subcontainer h1 {
+  font-size: 2rem;
+  font-family: "Fredoka One", cursive;
+}
+
+.subcontainer p {
+  font-size: 1.3rem;
+  margin-bottom: -0.2rem;
+  font-family: "Fredoka One", cursive;
+}
+
+.subcontainer2 {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.subcontainer3 {
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  margin: 0.2rem;
+}
+
+.subcontainer3 p {
+  font-size: 1.3rem;
+  margin-bottom: -0.2rem;
+  font-family: "Fredoka One", cursive;
+}
+
+.subcontainer3 h3 {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.1rem;
+  margin-bottom: -0.01rem;
+}
+
+.subcontainer3 h2 {
+  font-family: "Comfortaa", cursive;
+  font-size: 1.6rem;
+}
+
+.subcontainer3 h4 {
+  font-family: "Comfortaa", cursive;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.subcontainer3 h5 {
+  font-family: "Hubballi", cursive;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.subcontainer3 span {
+  color: rgb(226, 31, 31);
+}
+
+.subcontainer3 p {
+  font-family: "Hubballi", cursive;
+  margin-bottom: 1rem;
+}
+
+.hide {
+  display: none;
+}
+
+.share3 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+
+.share {
+  display: flex;
+  justify-content: space-around;
+}
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin-top: 1rem !important;
+  background: rgba(0, 0, 0, 0.664);
+  box-shadow: 0 8px 32px 0 rgba(10, 11, 19, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 1.1rem;
+  font-family: "Comfortaa", cursive;
+  text-align: center;
+  font-size: 1rem;
+  display: flex;
+}
+
+.footer p {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.footer .a {
+  color: rgba(255, 255, 255, 0.767);
+  text-align: center;
+  font-size: 0.8rem;
+  font-family: "Comfortaa", cursive;
+}
+
+.video {
+  padding-bottom: 1.5rem;
+}
+
+.image {
+  width: 110px;
+  margin-left: 10px;
+}
+
+.simage {
+  width: 65px;
+}
+@media screen and (max-width: 950px) {
+  .container {
+    margin: 1.5rem;
+  }
+  .subcontainer2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .subcontainer3 {
+    margin-top: 1rem;
+  }
+  .footer {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .container {
+    margin: 5rem;
+  }
+
+  .subcontainer {
+    padding: 2rem;
+  }
+
+  .subcontainer3 {
+    padding: 3rem;
+    margin: 0.6rem;
+  }
+}

@@ -1,0 +1,152 @@
+/* ! Main */
+
+.subcontainer {
+  height: 100vh !important;
+  width: 100%;
+  color: white;
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+  padding: 3.5rem;
+}
+
+.subcontainer section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 3rem;
+}
+
+.title {
+  color: white;
+  font-family: "Righteous", cursive;
+  font-size: 3.3rem;
+}
+
+.title span {
+  color: #8aaae5;
+  font-family: "Hubballi", cursive;
+  font-size: 1.8rem;
+}
+
+.p {
+  font-family: "Comfortaa", cursive;
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding-bottom: 1.2rem;
+  color: white;
+}
+
+.image {
+  filter: drop-shadow(0 0 7rem #ffffff);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  z-index: 2;
+}
+
+.subcontainer button {
+  width: 60%;
+  height: 50px !important;
+  /* align-self: center; */
+}
+
+.sup{
+font-family: 'Righteous', cursive;
+text-align: center;
+padding-top: 0.5rem;
+}
+
+/* !Button */
+
+.button {
+  text-decoration: none;
+  background-color: #c23f41;
+  backdrop-filter: blur(17px);
+  -webkit-backdrop-filter: blur(17px);
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 10px;
+  color: #fef9ef;
+  border: 0em #bc4749 solid;
+  font-family: "Fredoka One", cursive;
+  font-size: 1.4rem;
+  text-align: center;
+  transition: font-size 100ms ease-in;
+}
+
+.button::after {
+  text-decoration: none;
+  background-color: #c23f41;
+  backdrop-filter: blur(17px);
+  -webkit-backdrop-filter: blur(17px);
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 10px;
+  color: #fef9ef;
+  border: 0em #bc4749 solid;
+  font-family: "Fredoka One", cursive;
+  font-size: 1.4rem;
+}
+
+.button:hover {
+  background-color: #d63437;
+  box-shadow: 0 2px 20px 0 #b33c3e;
+  font-size: 1.5rem !important;
+}
+
+/* !Mobile */
+
+@media screen and (max-width: 950px) {
+  .subcontainer {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1.8rem;
+  }
+
+  .subcontainer section {
+    margin-left: 0rem;
+  }
+
+  .title {
+    font-size: 1.9rem;
+  }
+
+  .title span {
+    font-size: 1.1rem;
+  }
+
+  .p {
+    font-size: 0.7rem;
+    padding-bottom: 1.2rem;
+  }
+
+  .image {
+    filter: drop-shadow(0 0 3.5rem #ffffff);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
+  .subcontainer a {
+  align-self: center;
+  width:80%;
+  font-size: 80% !important;
+}
+
+ .subcontainer a:hover{
+   font-size: 95% !important;
+ }
+.sup{
+padding-left: 0rem;
+text-align: center;
+}
+}
