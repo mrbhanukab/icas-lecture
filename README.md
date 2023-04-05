@@ -1,6 +1,6 @@
 # Source Code Of ICAS Webinar Series Registration portal
 
-This is the source code repository for the website <https://icas-edu.web.app/> which promotes the ICAS (Isipathana College Astronomy Society) Webinar Series focused on the topic of Life on Earth.
+This is the source code repository for the website <https://icas-edu.web.app/> which promotes the ICAS (Isipathana College Astronomy Society) Webinar Series focused on various astronomy related topics.
 
 ## Note ⚠️
 
